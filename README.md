@@ -27,15 +27,15 @@ Exemplo de estrutura de web padrao para aprendizado
 
 O projeto segue uma estrutura de pastas modular:
 src/
-├── assets/ # Recursos estáticos (imagens, fontes)
-├── components/ # Componentes reutilizáveis (Header, Footer, Layout, Button)
-├── contexts/ # (Opcional) Contextos React
-├── hooks/ # (Opcional) Custom Hooks
-├── pages/ # Componentes que representam páginas completas (Home, About, NotFound)
-├── routes/ # Configuração do roteamento
-├── services/ # (Opcional) Lógica de chamadas API
-├── styles/ # Arquivos de estilo globais (ex: global.css)
-├── types/ # Definições de tipos TypeScript globais
-├── utils/ # Funções utilitárias
-├── App.tsx # Componente raiz da aplicação
-└── main.tsx # Ponto de entrada da aplicação (renderiza o App)
+   - assets/ # Recursos estáticos (imagens, fontes)
+   - components/ # Componentes reutilizáveis (Header, Footer, Layout, Button)
+   - contexts/ # (Opcional) Contextos React
+   - hooks/ # (Opcional) Custom Hooks
+   - pages/ # Componentes que representam páginas completas (Home, About, NotFound)
+   - routes/ # Configuração do roteamento
+   - services/ # (Opcional) Lógica de chamadas API
+   - styles/ # Arquivos de estilo globais (ex: global.css)
+   - types/ # Definições de tipos TypeScript globais
+   - utils/ # Funções utilitárias
+   - App.tsx # Componente raiz da aplicação
+   - main.tsx # Ponto de entrada da aplicação (renderiza o App)
