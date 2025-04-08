@@ -1,4 +1,4 @@
-# Estrutura_de_site_React_TS
+# Estrutura de site FelipeFLix com React-TS
 Exemplo de estrutura de web padrao para aprendizado
 
 ## ✨ Funcionalidades Implementadas
