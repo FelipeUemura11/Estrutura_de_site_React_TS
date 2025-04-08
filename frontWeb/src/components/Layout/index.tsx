@@ -1,13 +1,19 @@
 // Layout do site
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 import styles from './styles.module.css';
 
-const Layout:FC = () => {
-  return (
-    <div>
+interface LayoutProps {
+  children: ReactNode;
+}
 
+const Layout:FC<LayoutProps> = ({ children }) => {
+  return (
+    <div className={styles.layout}>
+      <Header />
+      <main className={styles.main}> {children} </main>
+      <Footer />
     </div>
   )
 }
